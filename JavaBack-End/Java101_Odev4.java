@@ -12,7 +12,7 @@ public class Java101_Odev4{
         double perKm = 2.20, total;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Mesafeyi KM cinsinden giriniz: ");
+        System.out.println("Please provide KM: ");
 
         km = input.nextInt();
 
@@ -21,7 +21,7 @@ public class Java101_Odev4{
 
         total = (total < 20) ? 20 : total;
 
-        System.out.println("Toplam tutar: " + total);
+        System.out.println("Total cost: " + total);
 
     }
 }
