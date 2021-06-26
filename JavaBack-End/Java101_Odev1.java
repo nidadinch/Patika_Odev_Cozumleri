@@ -4,7 +4,7 @@ import java.util.*;
  * @author nidadinc
  * @since 24.06.2021
  */
-public class Java101Odev_1 {
+public class Java101_Odev1 {
 
     public static void main(String[] args) {
 
