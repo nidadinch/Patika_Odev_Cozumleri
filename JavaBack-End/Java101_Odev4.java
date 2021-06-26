@@ -1,6 +1,9 @@
-
 import java.util.*;
 
+/**
+ * @author nidadinc
+ * @since 26.06.2021
+ */
 public class Java101_Odev4{
 
     public static void main(String[] args) {
