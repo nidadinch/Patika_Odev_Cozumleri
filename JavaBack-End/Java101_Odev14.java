@@ -4,7 +4,7 @@ import java.util.*;
  * @author nidadinc
  * @since 01.07.2021
  */
-public class Java101_Odev11 {
+public class Java101_Odev14 {
 
     public static void main(String[] args) {
         int km, yas, yolculukTipi;
