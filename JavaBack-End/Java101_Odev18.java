@@ -7,7 +7,7 @@ import java.util.*;
 public class Java101_Odev18 {
 
     public static void main(String[] args) {
-        int number,count = 0, total = 0;
+        int number, total = 0;
 
         while(true){
             Scanner input1 = new Scanner(System.in);
@@ -22,7 +22,6 @@ public class Java101_Odev18 {
         for(int i = 1; i < number; i++){
             if(i % 2 == 0 && i % 4 == 0){
                 total += i;
-                count++;
             }
         }
 
