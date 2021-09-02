@@ -3,7 +3,7 @@
 > ```SQL
 > SELECT COUNT(*) FROM film
 > WHERE length > 
-> ( SELECT AVG(length) FROM film );
+>   ( SELECT AVG(length) FROM film );
 > ```
 
 
@@ -12,7 +12,7 @@
 > ```SQL
 > SELECT COUNT(*) FROM film
 > WHERE rental_rate = 
-> ( SELECT MAX(rental_rate) FROM film );
+>   ( SELECT MAX(rental_rate) FROM film );
 > ```
 
 
@@ -21,7 +21,7 @@
 > ```SQL
 > SELECT * FROM film
 > WHERE rental_rate = ANY
-> ( SELECT MIN(rental_rate, replacement_cost) FROM film );
+>   ( SELECT MIN(rental_rate, replacement_cost) FROM film );
 > ```
 
 
