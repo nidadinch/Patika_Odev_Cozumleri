@@ -23,3 +23,16 @@
 > WHERE rental_rate = ANY
 > ( SELECT MIN(rental_rate, replacement_cost) FROM film );
 > ```
+
+
+### 4th question 
+
+> ```SQL
+> SELECT * FROM customer
+> WHERE customer_id = (
+>          SELECT customer_id FROM payment
+>           GROUP BY customer_id
+>           ORDER BY COUNT(*) DESC
+>           LIMIT 1
+> );
+> ```
