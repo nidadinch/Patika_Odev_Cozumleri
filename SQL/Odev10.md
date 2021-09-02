@@ -2,7 +2,7 @@
 
 > ```SQL
 > SELECT city, country FROM country
-> INNER JOIN city ON city.country_id = country.id;
+> LEFT JOIN city ON city.country_id = country.id;
 > ```
 
 
@@ -10,7 +10,7 @@
 
 > ```SQL
 > SELECT p.payment_id, c.first_name, c.last_name FROM payment AS p
-> INNER JOIN customer AS c ON customer.id = p.customer_id;
+> RIGHT JOIN customer AS c ON customer.id = p.customer_id;
 > ```
 
 
@@ -18,5 +18,5 @@
 
 > ```SQL
 > SELECT r.rental_id, c.first_name, c.last_name FROM rental AS r
-> INNER JOIN customer AS c ON customer.id = r.customer_id;
+> FULL JOIN customer AS c ON customer.id = r.customer_id;
 > ```
