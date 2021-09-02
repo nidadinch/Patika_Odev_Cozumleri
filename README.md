@@ -1,27 +1,10 @@
 
-# Kodluyoruz İlk Repo
+# Kodluyoruz - Patika.dev Ödev Çözümleri
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Eğitimlerinde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
-
-## Installation 
-
-Öncelikle projeyi clonelayın. [Repo](https://github.com/nidadinch/kodluyoruzilkrepo)
-
-```
-git clone https://github.com/nidadinch/kodluyoruzilkrepo.git
-```
-
-## Usage
-Projeyi cloneladıktan sonra Visual Studio Code programında açınız. 
-Linux için:
-
-```
-cd kodluyoruzilkrepo
-code
-```
+Patika.dev Java ile Back-End Development patikası ödev çözümlerini bulabilirsiniz. 
 
 ## Contributing
 Pull requestler kabul edilir. Büyük değişiklikler için önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
 ## License
-[MIT](https://github.com/nidadinch/kodluyoruzilkrepo/blob/main/LICENSE)
+[MIT](https://github.com/nidadinch/Patika_Odev_Cozumleri/blob/main/LICENSE)
